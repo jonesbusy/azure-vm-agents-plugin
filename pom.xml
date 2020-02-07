@@ -43,16 +43,16 @@
         <changelist>-SNAPSHOT</changelist>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <azuresdk.version>1.19.0</azuresdk.version>
-        <azure-storage.version>6.1.0</azure-storage.version>
+        <azuresdk.version>1.31.0</azuresdk.version>
+        <azure-storage.version>8.6.0</azure-storage.version>
         <jackson.version>2.10.2</jackson.version>
         <jenkins.version>2.60.3</jenkins.version>
         <java.level>8</java.level>
         <findbugs.failOnError>true</findbugs.failOnError>
         <findbugs.excludeFilterFile>findbugs-exclude.xml</findbugs.excludeFilterFile>
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <azure-credentials.version>1.6.1</azure-credentials.version>
-        <azure-commons.version>1.0.3</azure-commons.version>
+        <azure-credentials.version>2.0.1</azure-credentials.version>
+        <azure-commons.version>1.0.4</azure-commons.version>
         <guava.version>19.0</guava.version>
         <configuration-as-code.version>1.35</configuration-as-code.version>
     </properties>
@@ -77,7 +77,7 @@
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-annotations</artifactId>
-                <version>1.8.0</version>
+                <version>1.10.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
